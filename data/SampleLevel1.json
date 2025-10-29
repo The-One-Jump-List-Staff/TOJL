@@ -1,12 +1,11 @@
 {
-    "id": 57436521,
-    "name": "SampleLevel1",
-    "author": "LevelUploader",
-    "creators": ["Creator1", "Creator2", "Creator3"],
-    "verifier": "Verifier",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": 56,
-    "password": "Not Copyable",
+    "id": 127523247,
+    "name": "Blast proc saws",
+    "author": "turnyourfrownupsdidedown",
+    "creators": [],
+    "verifier": "turnyourfrownupsdidedown",
+    "verification": "https://youtu.be/yMZ17LOruBE",
+    "percentToQualify": 100,
     "records": [
         {
             "user": "Sample_Victor_1",
