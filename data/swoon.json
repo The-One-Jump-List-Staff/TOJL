@@ -7,9 +7,11 @@
     "verification": "https://www.youtube.com/watch?v=yYUvfNWmFRg",
     "percentToQualify": "100",
     "records": [
-         "user": "turnyourfrownupsdidedown",
+        {
+            "user": "turnyourfrownupsdidedown",
             "link": "https://youtu.be/fBPis_zf7tI",
             "percent": 100,
             "hz": 60
+        }
     ]
 }
