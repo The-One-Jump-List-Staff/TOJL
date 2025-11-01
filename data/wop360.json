@@ -13,7 +13,8 @@
             "percent": 100,
             "hz": 670
         }
-        { "user": "SonotavoloDTR",
+        { 
+            "user": "SonotavoloDTR",
             "link": "https://www.youtube.com/watch?v=1Sy17dHlhzo",
             "percent": 100,
             "hz": 60
