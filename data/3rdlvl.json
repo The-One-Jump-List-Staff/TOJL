@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/eoNkgYyMNC8",
     "percentToQualify": "100",
     "records": [
+   {
+            "user": "SonotavoloDTR",
+            "link": "https://www.youtube.com/watch?v=DpLQMcCX4Y8",
+            "percent": 100,
+            "hz": 120
+           }
     ]
 }
