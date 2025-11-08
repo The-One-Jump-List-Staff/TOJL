@@ -1,0 +1,17 @@
+{
+    "id": 127861616,
+    "name": "sophos",
+    "author": "SonotavoloDTR",
+    "creators": ["Solo_Creator"],
+    "verifier": "SonotavoloDTR",
+    "verification": "https://www.youtube.com/watch?v=0uXmebZeSdI",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "turnyourfrownupsdidedown",
+            "link": "https://youtu.be/3Z8Yng9Q8xk",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
