@@ -12,6 +12,12 @@
             "link": "https://www.youtube.com/watch?v=7j4Sp0SgAfY",
             "percent": 100,
             "hz": 440
-           }
+           },
+   {
+            "user": "Cboss5",
+            "link": "https://www.youtube.com/watch?v=XX8UZ8scg6I",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
