@@ -1,26 +1,38 @@
 :root {
-    --color-background: white;
-    --color-on-background: black;
-    --color-background-hover: #eee;
-    --color-on-background-hover: black;
-    --color-primary: #0066ff;
-    --color-on-primary: white;
+    --color-background: #f5f7fb;
+    --color-on-background: #1d2330;
+    --color-background-hover: #e3e8f2;
+    --color-on-background-hover: #1a1f2b;
+    --color-surface: #ffffff;
+    --color-surface-muted: #eef2f9;
+    --color-border: rgba(15, 23, 42, 0.12);
+    --color-primary: #4c6fff;
+    --color-on-primary: #f8faff;
     --color-error: #de0000;
     --color-on-error: white;
+    --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.12);
+    --shadow-lift: 0 10px 24px rgba(76, 111, 255, 0.25);
+    --radius-lg: 1.25rem;
+    --radius-md: 0.85rem;
 }
 
 main.dark,
 header.dark {
     color-scheme: dark;
-    --color-background: #1c1b1f;
-    --color-on-background: white;
-    --color-background-hover: #27262c;
-    --color-on-background-hover: white;
-    --color-primary: #283593;
+    --color-background: #0f1117;
+    --color-on-background: #eef1f7;
+    --color-background-hover: #1c212b;
+    --color-on-background-hover: #f3f5fb;
+    --color-surface: #141821;
+    --color-surface-muted: #1d2230;
+    --color-border: rgba(148, 163, 184, 0.18);
+    --color-primary: #6d7cff;
     --color-primary-disabled: #1f213c;
-    --color-on-primary: white;
+    --color-on-primary: #f6f7ff;
     --color-error: #de0000;
     --color-on-error: white;
+    --shadow-soft: 0 18px 40px rgba(2, 6, 23, 0.6);
+    --shadow-lift: 0 10px 24px rgba(109, 124, 255, 0.35);
 }
 
 html,
@@ -32,11 +44,19 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background: radial-gradient(
+            circle at top,
+            rgba(76, 111, 255, 0.12),
+            transparent 55%
+        ),
+        var(--color-background);
+    color: var(--color-on-background);
+    min-height: 100vh;
 }
 
 header,
 main {
-    background-color: var(--color-background);
+    background-color: transparent;
     color: var(--color-on-background);
     display: grid;
     grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
@@ -50,8 +70,13 @@ header {
     display: flex;
     padding-inline: calc(25vw - 10rem);
     height: 4rem;
-    background-color: var(--color-primary);
+    background: linear-gradient(
+        135deg,
+        rgba(76, 111, 255, 0.95),
+        rgba(52, 84, 214, 0.95)
+    );
     color: var(--color-on-primary);
+    box-shadow: var(--shadow-soft);
 }
 @media screen and (min-width: 1366px) {
     header {
@@ -65,6 +90,7 @@ header .logo {
     display: flex;
     align-items: flex-end;
     gap: 1rem;
+    letter-spacing: 0.02em;
 }
 header .nav {
     flex: 1;

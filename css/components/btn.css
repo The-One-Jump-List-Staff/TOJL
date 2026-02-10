@@ -2,13 +2,13 @@
     border: none;
     cursor: pointer;
     font: inherit;
-    padding: 1rem;
+    padding: 0.85rem 1.25rem;
     margin: 0;
-    background-color: var(--color-primary);
+    background: linear-gradient(135deg, var(--color-primary), #3454d6);
     color: var(--color-on-primary);
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
-    transition: transform 100ms ease;
+    border-radius: 999px;
+    box-shadow: var(--shadow-lift);
+    transition: transform 120ms ease, box-shadow 120ms ease;
 }
 
 .btn:disabled {
@@ -18,4 +18,5 @@
 
 .btn:not(:disabled):hover:not(:active) {
     transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(52, 84, 214, 0.35);
 }
